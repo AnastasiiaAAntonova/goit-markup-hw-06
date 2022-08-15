@@ -397,7 +397,7 @@
 						</li>
 					</ul>
 				</div>
-				<form action="" class="footer-form">
+				<form class="footer-form">
 					<label for="footer-email" class="footer-lable">Підпишіться на розсилку</label>
 					<div class="footer-form-area">
 						<input type="email" name="email" id="footer-email" placeholder="E-mail" />
@@ -418,8 +418,8 @@
 						<use href="./images/icons.svg#icon-close"></use>
 					</svg>
 				</button>
-				<h2 class="modal-header">Залиште свої дані, ми вам передзвонимо</h2>
-				<form action="" class="modal-form">
+				<p class="modal-header">Залиште свої дані, ми вам передзвонимо</p>
+				<form class="modal-form">
 					<label for="name" class="modal-label">Ім'я</label>
 					<div class="modal-item">
 						<input type="text" name="name" id="name" class="form-input" />
@@ -445,8 +445,8 @@
 							</svg>
 						</span>
 					</div>
-					<div class="modal-item">
-						<label for="comments" class="modal-label">Коментар</label>
+						<label for="comments" class="comments-label">Коментар</label>
+						<div class="comments-field">
 						<textarea
 							name="comments"
 							id="comments"
@@ -456,7 +456,6 @@
 							class="comments"
 						></textarea>
 					</div>
-				</form>
 				<div class="modal-checkbox">
 					<input type="checkbox" name="checkbox" id="checkbox" class="checkbox visually-hidden" />
 					<label class="checkbox-label" for="checkbox">
@@ -468,6 +467,7 @@
 						Погоджуюся з розсилкою та приймаю &nbsp;
 						<a class="checkbox-link link" href="">Умови договору</a>
 					</label>
+					</form>
 				</div>
 				<button type="submit" class="modal-form-btn btn">Відправити</button>
 			</div>
